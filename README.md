@@ -22,6 +22,22 @@ Provides separate module to validate as well as mock Android Intents.
 Provides automatic synchronization between your application and tests.
 
 
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
 
 
 
