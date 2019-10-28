@@ -253,6 +253,35 @@ Here, matches accept the view matcher and return view assertion, which can be ch
 
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+Hamcrest Library
+Hamcrest library is an important library in the scope of espresso testing framework. Hamcrest is itself a framework for writing matcher objects. Espresso framework extensively uses the Hamcrest library and extend it whenever necessary to provide simple and extendable matchers.
+
+Hamcrest provides a simple function assertThat and a collection of matchers to assert any objects. assertThat has three arguments and they are as shown below −
+
+String (description of the test, optional)
+
+Object (actual)
+
+Matcher (expected)
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Hamcrest has a lot of built-in matchers and also options to create new matchers. Some of the important built-in matchers useful in espresso testing framework are as follows −
+
+anything - always matchers
+Logical based matchers
+
+allOf − accept any number of matchers and matches only if all matchers are succeeded.
+
+anyOf − accept any number of matchers and matches if any one matcher succeeded.
+
+not − accept one matcher and matches only if the matcher failed and vice versa.
 
 
